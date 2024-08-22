@@ -10,6 +10,7 @@ import face_recognition from '../images/SLS-facial-2023.png';
 export const Bio = {
   name: "Aisha Alajmi",
   roles: [
+    "IT student",
     "Web Developer",
     "UI/UX Designer",
   ],
@@ -194,7 +195,17 @@ export const projects = [
 
 
   },
- 
+  {
+    id: 3,
+    title: "Protofolio",
+    date: "Dec 2021 - Apr 2022",
+    description:
+      "build a personalized website to showcase my work",
+    image:
+      Pro, tags: ["HTML", "JavaScropt", "CSS"],
+    category: "web app",
+
+  },
   {
     id: 10,
     title: "Techlad",
@@ -229,4 +240,3 @@ export const projects = [
     category: "machine learning",
   },
 ];
-
