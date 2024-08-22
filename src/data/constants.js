@@ -26,41 +26,6 @@ export const Bio = {
 export const skills = [
 
   {
-    title: "Others",
-    skills: [
-      {
-        name: "Git",
-        image:
-          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
-      },
-      {
-        name: "GitHub",
-        image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
-      },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
-      {
-        name: "Postman",
-        image:
-          "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
-      },
-      {
-        name: "Figma",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
-      },
-    ],
-  },
-  {
     title: "Frontend",
     skills: [
       {
@@ -132,6 +97,41 @@ export const skills = [
     ],
   },
 
+  {
+    title: "Others",
+    skills: [
+      {
+        name: "Git",
+        image:
+          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+      },
+      {
+        name: "GitHub",
+        image:
+          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+      {
+        name: "Netlify",
+        image:
+          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      },
+      {
+        name: "VS Code",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+      },
+      {
+        name: "Postman",
+        image:
+          "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+      },
+      {
+        name: "Figma",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/3/33/Figma-logo.svg",
+      },
+    ],
+  },
 ];
 
 export const projects = [
