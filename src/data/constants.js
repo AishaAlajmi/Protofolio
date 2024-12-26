@@ -6,11 +6,12 @@ import Pro from '../images/photo_2024-08-06_18-17-03.jpg';
 import CareerHub from '../images/Screenshot (358).png';
 import Techlad from '../images/Screenshot (265).png';
 import face_recognition from '../images/SLS-facial-2023.png';
+import IfsahHomePage from '../images/IfsahHomePage.png';
+import Anis from '../images/Anis.png';
 
 export const Bio = {
   name: "Aisha Alajmi",
   roles: [
-    "IT student",
     "Web Developer",
     "UI/UX Designer",
   ],
@@ -138,7 +139,6 @@ export const projects = [
   {
     id: 9,
     title: "Bena",
-    date: "Jun 2023 - Jul 2023",
     description:
       "A company that aims to use computing to build a sustainable society, by developing and using computers and software in responsible ways, with a focus on environmental and economic sustainability, solving communication problems, and disposing of computing components properly.",
     image: Bena,
@@ -153,24 +153,28 @@ export const projects = [
 
   },
   {
-    id: 0,
-    title: "Bainah",
-    date: "Apr 2023 - May 2023",
+    id: 4,
+    title: "Ifsah",
     description:
-      "Website of a law firm providing legal services in the Kingdom of Saudi Arabia.",
+      "Ifsah is an integrated accounting solution that enhances financial transparency by ensuring accurate disclosures of transactions with related parties, customers, and suppliers. It automates financial statement generation, ensures compliance with built-in alerts and approvals, and features a smart digital assistant to support accountants in making informed decisions and improving company performance.",
     image:
-      Bainah,
-    tags: ["Php",
-      "JavaScript",
-      "HTML",
-      "CSS"],
+      IfsahHomePage, tags: ["HTML", "CSS", "JS", "PHP", "Machine Learning"],
     category: "web app",
+  },
+  {
+    id: 2,
+    title: "Anis",
+    description:
+      "Anis is an AI-powered intelligent character designed to improve psychological therapy. It analyzes the patient's psychological and medical data, as well as their social media activity (with the patient's consent), to provide personalized consultations that predict psychological crises before they occur, enabling early intervention and appropriate support. Anis enhances communication between patients and specialists, raises patients' awareness of their condition, improving the quality of care while reducing costs and the number of therapy sessions.",
+    image:
+      Anis,
+    tags: ["Python", "Machine Learning"],
+    category: "machine learning"
 
   },
   {
     id: 1,
     title: "Musaned",
-    date: "Oct 2022 - Present",
     description:
       "Musaned is an integrated educational system that generates questions based on the subject learning objectives (CLOs) and the students’ level using artificial intelligence. Students’ performance in the training questions is analyzed to provide recommendations and feedback that help them improve their understanding of the material. It also allows students to compete in solving questions quickly and accurately through interactive competitions, which enhances the competitiveness and enjoyment of the subject in addition to raising the academic level.",
     image: Musaned,
@@ -183,22 +187,22 @@ export const projects = [
 
   },
   {
-    id: 2,
-    title: "Pomodoro timer",
-    date: "Jan 2023 - Mar 2023",
+    id: 0,
+    title: "Bainah",
     description:
-      "build a simple Pomodoro timer.The Pomodoro technique is based on the idea that by dividing our workflow into blocks of intense concentration, we can improve brain agility and stimulate our focus",
+      "Website of a law firm providing legal services in the Kingdom of Saudi Arabia.",
     image:
-      Timer,
-    tags: ["JavaScript", "HTML", "CSS"],
+      Bainah,
+    tags: ["Php",
+      "JavaScript",
+      "HTML",
+      "CSS"],
     category: "web app",
-
 
   },
   {
     id: 3,
     title: "Protofolio",
-    date: "Dec 2021 - Apr 2022",
     description:
       "build a personalized website to showcase my work",
     image:
@@ -209,7 +213,6 @@ export const projects = [
   {
     id: 10,
     title: "Techlad",
-    date: "Jun 2023 - Jul 2023",
     description:
       "Techlad helps you open doors with advanced technology, as we replace plastic cards with a digital card on the mobile phone, which uses the NFC technology found in smartphones.",
     image:
@@ -219,19 +222,8 @@ export const projects = [
 
   },
   {
-    id: 4,
-    title: "CareerHub",
-    date: "Jul 2021",
-    description:
-      "Java-based application that aims to simplify the process of connecting students with valuable training opportunities in different companies. COOPHub thus provides an easy-to-use graphical interface specially designed for administrators and students alike.",
-    image:
-      CareerHub, tags: ["Java"],
-    category: "web app",
-  },
-  {
     id: 8,
     title: "Face Recognition",
-    date: "Jan 2021",
     description:
       "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
     image:
