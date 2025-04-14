@@ -13,9 +13,6 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to='/'>
-          <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: '20;', cursor: 'pointer' }}>
-            <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
-          </a>
         </NavLogo>
         <MobileIcon>
           <FaBars onClick={() => {
@@ -25,6 +22,7 @@ const Navbar = () => {
         <NavItems>
           <NavLink href="#about">About</NavLink>
           <NavLink href='#skills'>Skills</NavLink>
+          <NavLink href="#achievements">Achievements</NavLink>
           <NavLink href='#projects'>Projects</NavLink>
           <NavLink href='#contact'>Contact</NavLink>
         </NavItems>
@@ -40,6 +38,9 @@ const Navbar = () => {
             <MobileLink href='#skills' onClick={() => {
               setIsOpen(!isOpen)
             }}>Skills</MobileLink>
+            <MobileLink href='#achievements' onClick={() => {
+              setIsOpen(!isOpen)
+            }}>Achievements</MobileLink>
             <MobileLink href='#projects' onClick={() => {
               setIsOpen(!isOpen)
             }}>Projects</MobileLink>
