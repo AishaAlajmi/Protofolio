@@ -164,6 +164,8 @@ const ProjectModal = ({ openModal, setOpenModal }) => {
               top: "10px",
               right: "20px",
               cursor: "pointer",
+              zIndex: 100, // Ensures it's above other elements
+              pointerEvents: "auto", // Ensures it responds to click events
             }}
             onClick={() => setOpenModal({ state: false, project: null })}
           />
