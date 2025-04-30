@@ -127,20 +127,32 @@ const Contact = () => {
   //hooks
   const [open, setOpen] = React.useState(false);
   const form = useRef();
-
   const handleSubmit = (e) => {
     e.preventDefault();
+
+    // Get the message value and trim it to remove spaces
+    const message = form.current["message"].value.trim();
+
+    // Check if the message is empty after trimming spaces
+    if (!message) {
+      // Display an error message if the message is empty or contains only spaces
+      alert("Message cannot be empty.");
+      return; // Stop form submission if the message is empty or only contains spaces
+    }
+
+    // Send the email using EmailJS
     emailjs.sendForm('service_rpmghqg', 'template_smc5afz', form.current, '1vHh1VG_nCEodW8K3')
       .then((result) => {
-        setOpen(true);
-        form.current.reset();
+        setOpen(true); // Show success Snackbar
+        form.current.reset(); // Reset form fields
       }, (error) => {
-        console.log(error.text);
+        console.log(error.text); // Log error if submission fails
       });
   }
 
+
   return (
-    <Container id="contact"> 
+    <Container id="contact">
       <Wrapper>
         <Title>Contact</Title>
         <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
